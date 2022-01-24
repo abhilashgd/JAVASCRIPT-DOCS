@@ -37,7 +37,7 @@
                 > console.log(10+10)
 
 
-#VSCODE JS writing 
+# VSCODE JS writing 
 
                 > create new file hello-world.js
                 > Menu bar --> terminal --> open new terminal
@@ -48,9 +48,43 @@
 
                 //Extensions
                 > code runner
+                > ctrl + option + n : keymap    to run the file using code runner
 
                 View --> command palette--> Open settings(JSON)
                 > "code-runner.showExecutionMessage": false  //to diable additional info in terminal
+                > "code-runner.clearPreviousOutput": true // to clear previous outputs
 
+                **Documenting in code**
+                Commenting
+                // to comment a single line
+                /* */ multi-line comment
+
+                **Quotes and Colons**
+                ' ' or " " are same
+                ; after end of line is optional
+
+                ESLint --> tool to find and fix problems in javascript code.
+
+                **Variables**
+                var firstName = "abhilash";
+                var age = 21;
+                var isMale =true;
+                var balance = 100.2;
+                var dob = new Date(200,0,30);
+                var person = {}
+                var empty = undefined;
+                console.log(firstName);
+                console.log(age);
+                console.log(isMale);
+                console.log(dob);
+                console.log(person);
+                console.log(empty); 
+
+                //typeof tells the type of variable
+                console.log(typeof firstName);
+                //Naming variables
+                similar to java conventions
+                //Strings in javascript
+                var brand = "abhilashgd"
                 
 

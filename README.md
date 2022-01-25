@@ -5,6 +5,7 @@
         > VSCode - https://code.visualstudio.com/
         > NodeJS - https://nodejs.org/en/
         > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+        > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
         > 
 
 
@@ -36,6 +37,21 @@
                 > console.log("Hello JS")
                 > enter
                 > console.log(10+10)
+
+# HOISTING
+
+         var declared inside a loop is available outside
+         so using var is not a good practice
+
+         use "let" instead of "var" to avoid hoisting
+         "const" to declare constants // like final variable in java const works similar to java in objects too
+
+         delete keyword to delete contents of an object.
+         delete brandObject.brand;
+
+         //when to use const vs let
+         let - used inside a loop
+         const - used in other places
 
 
 # VSCODE JS writing 
@@ -145,8 +161,69 @@
                 console.log(names);
                 console.log("Index 0 - "+ names[0]);
 
-# Arithametic Operators
+# Arithametic Operators (BODMAS)
+
+                var addition = 2+2;
+                var subtraction = 2-2;
+                var division = 10/2;
+                var multiplicaiton = 10*2;
+                var reminder = 10%2;
+                var exponentation = 3 ** 4;
+
+                console.log(addition);
+                console.log(multiplicaiton);
+                console.log(subtraction);
+                console.log(division);
+                console.log(reminder);
+
+# FUNCTIONS
+
+                //built in functions
+                var person1= {
+                    name: "abhilash"
+                }
+                console.log(Object.values(person1));
+                console.log(Object.keys(person1));
+                console.log("abhilash".toUpperCase());
+                console.log("abhilash".indexOf("l"));
+
+# LOOPS
+                var names2 = [   "abhilash", 
+                "vikram", 
+                "chaitanya"];
+                //for i
+                for (var i = 0; i<names2.length;i++) {
+                    console.log(names[i]);
+                }
+                //for of
+                for (const name of names2) {
+                console.log(name);
+                    }
+                //for each
+                names2.forEach(function(name){
+                    console.log(name);
+                })
+                //while loop similar to java
+                //do while loop similar to java
+                //increment and decrement operators similar to java
+                //comparison operators similar to java
+                //logical operators similar to java
+                //if statement similar to java
+                //ternary if statement
+                var result = number % 2 == 0 ? 'even' : 'odd';
+                //swith statement similar to java
+
+# FUNCTION
+
+            //Functions
+                function hello(){
+
+                }
+                hello =1
+                console.log(hello);
+
+                const hello2 = function (){
+                } //to avoid function getting assigned other values
 
                 
-
 
